@@ -1,0 +1,17 @@
+.header {
+    background-color: rgba(115, 119, 150, 0.659);
+    width: 100%;
+    height: 300px;
+}
+.body-1 {
+    background-color: aliceblue;
+    height: 300px;
+}
+.body-2 {
+    background-color: lightgray;
+    height: 300px;
+}
+.footer {
+    background-color: white;
+    height: 300px;
+}
