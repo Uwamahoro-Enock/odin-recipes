@@ -1,0 +1,4 @@
+/*let tag the class we created in css*/
+.flex-container {
+    display: flex;
+}
