@@ -2,3 +2,21 @@
 .flex-container {
     display: flex;
 }
+/*now, let select all divs in our flex-container main div */
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    /*then let add flex value to make changes */
+    flex: 1;
+}
+.one {
+    display: flex;
+}
+.one div {
+    background: sold rgb(53, 57, 122);
+    border: 6px solid blue;
+    height: auto;
+    margin: 1px;
+    flex: 1;
+}
