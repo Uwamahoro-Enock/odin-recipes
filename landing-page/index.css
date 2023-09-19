@@ -5,9 +5,7 @@ body {
 .division-1{
     left: 0;
     top: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
+    
     animation: animate 10s ease-in-out infinite;
     background-size: cover;
     opacity: 0.8;
@@ -25,4 +23,20 @@ body {
     70%{
         background-image: url(img/jacek-dylag-ZHr2TzM1-hk-unsplash.jpg);
     }
+}
+.sub-division-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+ .title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.Logo {
+    
 }
