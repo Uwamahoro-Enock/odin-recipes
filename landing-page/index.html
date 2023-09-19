@@ -1,50 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="division-1">
-        <div class="1-1">
-            <div class="Logo">
-                <img src="img/Music Store Live Logo 2.png" alt="">
-            </div>
-            <div class="Yamaha"><a href="">Yamaha</a></div>
-            <div class="login"><a href="">Fender</a></div>
-            <div class="login"><a href="">Korg</a></div>
-        </div>
-        <div class="description"> <!--web-description-->
-            <div class="title">
-                <div>
-                    <h1>
-                    Welcome to the sound shop   
-                    </h1>
-                    <h3>We aim to distribute quality musical instruments all over the world!</h3>
-                    <button>Book an appointment</button>
-                </div>
-                <div class="transition"> <!--Here I will add some transion of images-->
-                    <img src="https://culture-recordings.com/wp-content/uploads/sb-instagram-feed-images/243223518_548734039761607_6683214840152599410_nfull.jpg" alt="Our studio">
-                </div>
-            </div>
-        </div>   
-    </div>
-    <div class="2-division">
-         <!--I will add the stock!-->
-         <div>
-            <h3>
-                In parternship with many industries like Yamaha, Korg, WarWick and Fender we are world most top shop of orginal instruments Indeed.
-            </h3>
-         </div>
-        <div class="stock">
-        </div>
-    </div>
-    <div class="3-division"> <!--Testimony of successful culture musician-->
-        <p>
 
-        </p>
+<body>
+    <header>
+        <div class="nav">
+            <div class="left">
+                <p id="logo">Header Logo</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="welcome">
+            <div class="left">
+                <h1 class="hero">This website is awesome</h1>
+                <p class="secondary">This website has some subtext that goes here under the main title. It's a smaller
+                    font and the
+                    color is lower contrast.</p>
+                <button class="secondary">Sign up</button>
+            </div>
+            <div class="right">
+                <div class="image">
+                    <p class="secondary">this is a placeholder for an image</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Some random information.</h2>
+        <div class="card-container secondary">
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="quote">
+        <em>This is an inspiring quote, or a testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it
+            looks nice.</em>
+        <p>- Thor, God of Thunder</p>
     </div>
+
+    <div class="sign-up">
+        <div class="container">
+            <div class="left">
+                <strong>Call to action! It's time!</strong>
+                <p class="secondary">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="right">
+                <button class="secondary">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy; The Odin Project 2021
+    </footer>
 </body>
+
 </html>
